@@ -9,13 +9,24 @@
       <h1>Creature Creator</h1>
       
       <p>What happens when you combine these two animals?</p>
-      <img src="https://www.kasandbox.org/programming-images/animals/shark.png" height="150" alt="shark">
-      <img src="https://www.kasandbox.org/programming-images/animals/spider.png" height="150" alt="spider">
+      <img src="https://cdn.shopify.com/s/files/1/0327/6661/files/Julia_2_large.jpg" height="150" alt="shark">
+      <img src="https://www.allaboutbirds.org/news/wp-content/uploads/2023/06/Fiery-throated_Hummingbird-Glenn_Bartley..jpg" height="150" alt="spider">
       
-      <p class="result">You get a sharkspider!</p>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
+      
+      var newA = $("<p>");
+         
+        newA.text("You get a Hummingfly!!!");
+          
+          newA.addClass("result");
  
+        // append prepend after
+      
+      $("body").append(newA);
+
+    $("html").css("color", "pink");
 
 
  
